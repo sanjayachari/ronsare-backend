@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pycache/
+*.pytest_cache/
+*.env
+venv/
+env/
+ENV/
+
+# Pycharm / VSCode
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database / Migrations
+*.sqlite3
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3-journal
+alembic/versions/*.pyc
+
+# Docker
+*.env.*.local
+docker-compose.override.yml
+docker-compose.override.yaml
+*.dockerfile
+*.tgz
+
+# Python packages
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Pytest
+.cache
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# FastAPI / Starlette
+__pypackages__/
+
+# Optional: if using Jupyter
+.ipynb_checkpoints/
